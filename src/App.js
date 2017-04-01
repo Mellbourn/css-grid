@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from 'react'
+import './App.css'
 
 class App extends Component {
   render() {
@@ -13,8 +13,8 @@ Ullum albucius sit te, quo singulis principes moderatius et, eu wisi utroque lib
         <aside className="sidebar-right">Right aside</aside>
         <footer>Footer</footer>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
