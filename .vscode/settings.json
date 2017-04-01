@@ -3,4 +3,5 @@
     "files.exclude": {
         "src/**/*.css": true
     },
+    "scss.lint.unknownProperties": "ignore"
 }
