@@ -4,7 +4,7 @@ import './App.css'
 class App extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="grid-container">
         <header>Header</header>
         <aside className="sidebar-left">Left aside</aside>
         <article>Article Lorem ipsum dolor sit amet, eius graeci vivendum usu et. Quo in doming epicurei, ex nec ignota ridens. No pro quem principes. Qui enim idque sapientem an, pro expetendis theophrastus ei, eum liber pertinax in.
