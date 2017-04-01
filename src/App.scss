@@ -4,13 +4,22 @@
       grid-template-columns: 1fr 2fr 1fr;
     }
     @media screen and (max-width: 300px) {
+      // remove last column
       grid-template-columns: 1fr 2fr;
       grid-template-areas: "header header"
                            "sidebar-1 article"
                            "footer footer";
       .sidebar-right {
+          // otherwise it will be left in the auto generated track
           display: none;
       }
+    }
+    @media screen and (min-width: 1200px){
+      // set sizes absolute to be able to play with align and justify
+      grid-template-columns: 100px 200px 50px;
+      grid-template-rows: 20px 400px 30px;
+      align-content: space-around;
+      justify-content: space-around;
     }
     grid-template-columns: minmax(10em, 1fr) 3fr minmax(100px, 1fr);
     grid-template-rows: 3em 1fr 4em;
@@ -18,6 +27,8 @@
                          "sidebar-1 article sidebar-2"
                          "footer footer footer";
     grid-gap: 1em;
+
+    // fill-er-up!
     height: 100vh;
 }
 
